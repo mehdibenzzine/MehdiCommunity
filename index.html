@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<title >Mehdi</title>
+<link rel="icon" href="html-coding.png"/>
+    <style type="text/css">
+        @import url("https://fonts.googleapis.com/css?family=Staatliches");
+
+*, *:before, *:after {
+
+  box-sizing: border-box;
+}
+
+html {
+
+  box-sizing: content-box;
+}
+body {
+  font-family: font-family: 'Staatliches', cursive;
+  margin: 0px; 
+  margin-left: 0px;
+  background-image: url( https://static1.squarespace.com/static/5693c1e8df40f361d6fe12c5/t/595e5887440243133332ce30/1499355291040/);
+  background-size: cover;
+  color: #4499;
+  overflow: hidden;
+}
+
+ul, nav{
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 70px;
+  color: #fff;
+  margin: 0 0 1.5rem;
+}
+
+i {
+  font-size: 1.3rem;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 10px 100px 0;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav li{
+  margin: 0 15px;
+}
+
+header nav li:first-child{
+  margin-left: 0; 
+}
+
+header nav li:last-child{
+  margin-right: 0;  
+}
+
+a.btn {
+  color: #fff;
+  padding: 10px;
+  border: 1px solid rgba(255,255,255,0.5);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+a.btn:hover {
+  background: #fa86be;
+  border: 1px solid #fa86be;
+  color: #fff;
+}
+
+.cover  {
+  height: 100vh;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.05)), to(rgba(0,0,0,0)));
+  background:(top, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0) 100%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0) 100%);
+  padding: 20px 50px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.flex-form input[type="submit"] {
+  background: #fa86be ;
+  border: 1px solid #fa86be;
+  color: #fff;
+  padding: 0 30px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.flex-form input[type="submit"]:hover {
+  background: #fa86be;
+  border: 1px solid #fa86be;
+}
+
+.flex-form {
+  display: -webkit-box;
+  display: flex;
+  z-index: 10;
+  position: relative;
+  width: 500px;
+  box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.flex-form > * {
+  border: 0;
+  padding: 0 0 0 10px;
+  background: #fff;
+  line-height: 50px;
+  font-size: 1rem;
+  border-radius: 0;
+  outline: 0;
+  -webkit-appearance: none;
+}
+
+input[type="search"] {
+  flex-basis: 500px;
+}
+
+#madeby {
+  position: absolute;
+  bottom: 0;
+  left:2px;
+  padding: 25px 100px;
+  color: #fa86be ;
+  font-size: 20px;
+  font-family: font-family: 'Staatliches', cursive;
+
+}
+
+@media all and (max-width:800px) {
+  body {
+    font-size: 0.9rem;
+  }
+
+  .flex-form {
+    width: 100%;
+  }
+
+  input[type="search"] {
+    flex-basis: 100%;
+  }
+
+  .flex-form > * {
+    font-size: 0.9rem;
+  }
+
+  header {
+    flex-direction: column;
+    padding: 10px !important;
+  }
+
+  header h2 {
+    margin-bottom: 15px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .cover {
+    padding: 20px;
+  }
+
+  #madeby {
+    padding: 30px 20px;
+  }
+
+
+@media all and (max-width:360px) {
+  header nav li{
+    margin: 0 10px;
+  }
+
+  .flex-form {
+    display: -webkit-box;
+    display: flex;
+    flex-direction: column;
+  }
+
+  input[type="search"] {
+    flex-basis: 0;
+  }
+
+  label {
+    display: none;
+}
+    
+    
+    </style>
+  <div class="container">
+  <header>
+    <h2><a href="https://lh3.googleusercontent.com/NDKZHjqSnR_q-uhDlduLHzY6H8p64KNLFb3l4YM20f2tYUIsR-2cPkhiVnccV5sm7gSaU4lw3T82Vb6udARxq89AWJxlrhbaLJgdj_l4cMKPlI3zzYn9vqIaHgVfFVkq9MHvhcMC0vai2WxSBY8uG8u2mGEd1PePhmIp7vHjq-GefpiDxY5hoFqEJsVEQYWFjj2b-Rdgl_IljbiCBCuDPPcYHk2Ov8VbHp_wIJhJbklPQ8iK8uFm94HzQMq-daAwlrogmpj9NqNzKuA24VnkXUEK4Kfq14UNlJjiuR3ZSvBCwi68ZYc1-50Ol8gDa4e0daUhToX4agkARrvVm69dxPkY89GzxfZ0oHDpZP3WP1VlzfdzD757cmXVYIB6BLvnC22KpoZnnwafl05c_u3VR4wx665bb_hrQI5572ODDLGN-sfK0w8otRHxyRuSXQ4FNaWuMnGymz9kPamdub3O8pwmf_WBCT8blvpVwTx9akcLCDKk2UaXlWRfJOs7YKhHNspcYJyMQnNUZ0aiqfIPqKtzVYU1KqmASkNSlMCElddlQQBTUBPuz0gusBp0XmxOBikuvZJGKtW6-mjy3bSXuHywVYIFY0notbXtOBRZhDN2lYGaBKVqFTYOqNq6aNh_ShSHosBM-aKDnVVZD-f2uo8=w994-h853-no"><i class="ion-plane"></i>Mehdi Service</a></h2>
+    <nav>
+      <ul>
+        <li>
+          <a  href="https://lh3.googleusercontent.com/Ld-6h15Dj1kUUNDM3JXfFzgPwejXhTiEQB6ougvjp2oJCNBdCC5x9vQbI78jlFb299VaMiSHXURH7wXm67SdU8kms07yOYTH6MEvvERWYKLSzCW6M73K27rnXvXzvtcMTjko10g9gpKP71p4SHZHpUQDc_TL2EKg6IpkK6hnbpXSbHIHfkMyd9TRGot1PQhwijaZFNaALUOMUZB6rVtafrkuBtmAP3LgurFHvlXjiEYqL6SB-8nXy7ZsoCSZirNkdbW7jk_rPwfP91PVeTWWu9_wZHwjXmYy4uLDLTt868C_BLKJPiBcNyysSyjlJ-ABQqQqv7yxXoonLRXNNchrPo1e8vh8Penso4MDPKlk9ouEjdLzy6HGfUlPgrgZ8Li7ynCbl-z2-m-xSHH_8Eq5TJA7TJ3jpWGDiLmiPi3KLVHJmTUassdMYmzsHY4BxYZseAH4j6X2VvtsExDkLFu1AL_EDYoKLMMEkYQQpVpr7NK7N-qN6Wu2qolM8oagC_EKJO4-1WeBlv6cQOy4-bIGC5OWiI6Jxulm0u232OQar9FpEacIeVgZtUKd2XHjyGDTbGH5lYPyNRxlEGfBf_OxUvFEhp8bKdOGDV2cAQ4jEyEGMUnCKiiYL5zo83YeWPQVm_AUAXW5FBYLq6MUPHaUXHyI=w640-h853-no" title="Don't Take it">Hitman</a>
+        </li>
+        <li >
+          <a  href="https://lh3.googleusercontent.com/Ld-6h15Dj1kUUNDM3JXfFzgPwejXhTiEQB6ougvjp2oJCNBdCC5x9vQbI78jlFb299VaMiSHXURH7wXm67SdU8kms07yOYTH6MEvvERWYKLSzCW6M73K27rnXvXzvtcMTjko10g9gpKP71p4SHZHpUQDc_TL2EKg6IpkK6hnbpXSbHIHfkMyd9TRGot1PQhwijaZFNaALUOMUZB6rVtafrkuBtmAP3LgurFHvlXjiEYqL6SB-8nXy7ZsoCSZirNkdbW7jk_rPwfP91PVeTWWu9_wZHwjXmYy4uLDLTt868C_BLKJPiBcNyysSyjlJ-ABQqQqv7yxXoonLRXNNchrPo1e8vh8Penso4MDPKlk9ouEjdLzy6HGfUlPgrgZ8Li7ynCbl-z2-m-xSHH_8Eq5TJA7TJ3jpWGDiLmiPi3KLVHJmTUassdMYmzsHY4BxYZseAH4j6X2VvtsExDkLFu1AL_EDYoKLMMEkYQQpVpr7NK7N-qN6Wu2qolM8oagC_EKJO4-1WeBlv6cQOy4-bIGC5OWiI6Jxulm0u232OQar9FpEacIeVgZtUKd2XHjyGDTbGH5lYPyNRxlEGfBf_OxUvFEhp8bKdOGDV2cAQ4jEyEGMUnCKiiYL5zo83YeWPQVm_AUAXW5FBYLq6MUPHaUXHyI=w640-h853-no" title="Go a Head">Guns</a>
+        </li>
+        <li >
+          <a  href="https://lh3.googleusercontent.com/Ld-6h15Dj1kUUNDM3JXfFzgPwejXhTiEQB6ougvjp2oJCNBdCC5x9vQbI78jlFb299VaMiSHXURH7wXm67SdU8kms07yOYTH6MEvvERWYKLSzCW6M73K27rnXvXzvtcMTjko10g9gpKP71p4SHZHpUQDc_TL2EKg6IpkK6hnbpXSbHIHfkMyd9TRGot1PQhwijaZFNaALUOMUZB6rVtafrkuBtmAP3LgurFHvlXjiEYqL6SB-8nXy7ZsoCSZirNkdbW7jk_rPwfP91PVeTWWu9_wZHwjXmYy4uLDLTt868C_BLKJPiBcNyysSyjlJ-ABQqQqv7yxXoonLRXNNchrPo1e8vh8Penso4MDPKlk9ouEjdLzy6HGfUlPgrgZ8Li7ynCbl-z2-m-xSHH_8Eq5TJA7TJ3jpWGDiLmiPi3KLVHJmTUassdMYmzsHY4BxYZseAH4j6X2VvtsExDkLFu1AL_EDYoKLMMEkYQQpVpr7NK7N-qN6Wu2qolM8oagC_EKJO4-1WeBlv6cQOy4-bIGC5OWiI6Jxulm0u232OQar9FpEacIeVgZtUKd2XHjyGDTbGH5lYPyNRxlEGfBf_OxUvFEhp8bKdOGDV2cAQ4jEyEGMUnCKiiYL5zo83YeWPQVm_AUAXW5FBYLq6MUPHaUXHyI=w640-h853-no" title="Don't be afraid">Bombs</a>
+        </li>
+        <li >
+          <a class="btn" href="#" title="No No Dont do That">Sign up/Log In</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div  class="cover">
+    <h1 >My advice for you is Don't Sign up.</h1>
+    <form   class="flex-form">
+      <label for="from">
+        <i class="ion-location"></i>
+      </label>
+      <input  type="search" placeholder="Take the bombs the best they have a big impact..">
+      <input  type="submit" value="Search">
+    </form>
+    <div  id="madeby">
+     
+        <span>
+            <footer>  
+                &copy; Developed by <a href="file:///C:/Users/mehdi/Desktop/New%20Start%20with%20No%20Giveup/CSS/Mehdi.html" target="_blank">BenZzine Mehdi</a></footer>
+      </span>
+    </div>
+  </div>
+
